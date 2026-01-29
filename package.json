@@ -1,0 +1,25 @@
+{
+  "name": "omnis-solutio-payment-sdk-react-native",
+  "version": "0.0.2",
+  "description": "A React Native payment SDK for merchants to integrate card, UPI, and wallet payments.",
+  "main": "src/index",
+  "codegenConfig": {
+    "name": "OmnisSolutioPaymentSdkSpec",
+    "type": "modules",
+    "jsSrcsDir": "src"
+  },
+  "author": " <> ()",
+  "license": "UNLICENSED",
+  "homepage": "#readme",
+  "create-react-native-library": {
+    "type": "turbo-module",
+    "languages": "kotlin-objc",
+    "tools": [
+      "eslint",
+      "jest",
+      "lefthook",
+      "release-it"
+    ],
+    "version": "0.57.0"
+  }
+}
